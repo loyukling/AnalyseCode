@@ -1,0 +1,12 @@
+import java.util.Scanner;// you need to import Scanner so that user can enter input
+
+public class ScannerAndKeyboard
+{
+
+	public static void main(String[] args)
+	{	Scanner s = new Scanner(System.in); // declar & init
+		System.out.print( "Enter your name: "  );// Print 
+		String name = s.nextLine(); // Where user can enter their name
+		System.out.println( "Hello " + name + "!" ); // After user enter , it would print hello & the name which they keyed into
+	}
+}
